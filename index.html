@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width initial-scale=1.0"/>
+        <title>Healthy</title>
+         <!--Render All Elements CSS Normally-->
+         <link rel="stylesheet" href="css/normalize.css">
+         <!--Font Awesome Library-->
+         <link rel="stylesheet" href="css/all.min.css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+          <!--Main Template CSS file-->
+          <link rel="stylesheet" href="css/style.css">
+           <!--Google Fonts-->
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;500;600&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Pangolin&family=Poppins:wght@400;500;600&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+      
+    </head>
+    <body>
+        <!-- Start Header -->
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="check-btn">
+                <i class="fas fa-bars"></i>
+            </label>
+                <label class="logo">Healthy ♥</label>
+                <ul>
+                    <li><a href="#main" class="home">Home</a></li>
+                    <li><a href="#dishes">Dishes</a></li>
+                    <li><a href="#drinks">Drinks</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                    <div class="log">
+                    <a href="#login" class="link">Log in</a>
+                   <a href="#register"><button class="button">Register</button></a>
+                </div>
+                </ul>
+        </nav>
+        <!-- End Header -->
+        <!-- Start Main Page -->
+        <div class="main" id="main">
+            <div class="background">
+                <img src="images/background2.jpeg" alt="">
+            </div>
+            <div class="text">
+            <h2>Don't eat less,</h2>
+            <h1>eat right</h1>
+      
+        <button class="button" id="main-btn" ><a href="#dishes">Explore -></a></button>
+    </div>
+</div>
+     
+        <!-- End Main Page -->
+        <!-- Start Dishes -->
+        <div class="container">
+            <h1 class="main-heading">Our Dishes</h1>
+            <p class="quote">Health requires healthy food ♥</p>
+            <div class="dishes" id="dishes">
+                <div class="box">
+                    <img src="images/avocado.jpeg">
+                    <p>Avocado with toast</p>
+                </div>
+                <div class="box">
+                    <img src="images/fruit-salad.jpeg">
+                    <p>Fruit Salad</p>
+                </div>
+                <div class="box">
+                    <img src="images/oats.webp">
+                    <p>Oats</p>
+                </div>
+                <div class="box">
+                    <img src="images/tuna.jpeg">
+                    <p>Tuna Salad</p>
+                </div>
+                <div class="box">
+                    <img src="images/sandwich.jpeg">
+                    <p>Different Sandwiches</p>
+                </div>
+                <div class="box">
+                    <img src="images/desert.jpeg" height="75%">
+                    <p>Delicious Desert</p>
+                </div>
+            </div>
+        </div>
+        <!-- End Dishes -->
+        <!-- Start Drinks -->
+        <div class="container">
+            <h1 class="main-heading"> Drinks</h1>
+            <p class="quote">New Drink..New Day!</p>
+            <div class="drinks" id="drinks">
+                <div class="box">
+                    <img src="images/lemon.jpg">
+                    <p>Lemon Juice</p>
+                </div>
+                <div class="box">
+                    <img src="images/cranberry.jpeg">
+                    <p>cranberry juice</p>
+                </div>
+                <div class="box">
+                    <img src="images/greenTea.jpeg">
+                    <p>Green Tea</p>
+                </div>
+                <div class="box">
+                    <img src="images/cocount.jpeg">
+                    <p>coconut juice</p>
+                </div>
+                <div class="box">
+                    <img src="images/orange.jpg">
+                    <p>orange juice</p>
+                </div>
+            </div>
+        </div>
+        <!-- End Drinks -->
+        
+        <!-- Start Contact -->
+       
+        <div class="contact" id="contact">
+            <div class="container">
+                <h1 class="main-heading">Contact Us</h1>
+                <p class="quote">Please email us if you have any queries about the site, advertising, or anything else</p>
+            </div>
+            <form action="action_page.php">
+                <input type="text" id="fname" placeholder="Name">
+                <input type="text" id="fname" placeholder="E-Mail">
+                <input type="text" id="fname" placeholder="Message"><br><br>
+                <input type="submit" id="submit"placeholder="submit">
+
+            </form>
+        </div>
+        <!-- End Contact -->
+        <!-- Start Login -->
+        <div class="login" id="login">
+            <div class="square">
+                <form action="action_page.php">
+                <h2 class="main-heading">Login</h2>
+                <p class="quote">Please enter your credentials to login</p>
+                <input type="text" id="fname" placeholder="Username"><br>
+                <input type="password" id="password" placeholder="Password"><br><br>
+                <button class="button">Login</button>
+            </form>
+            </div>
+        </div>
+        <!-- End Login -->
+        <!-- Start Register -->
+        <div class="register" id="register">
+            <div class="square">
+                <form action="action_page.php">
+                <h2 class="main-heading">Register</h2>
+                <p class="quote">You have to register to see additional features</p>
+                <input type="text" id="fname" placeholder="First Name"><br>
+                <input type="text" id="lname" placeholder="Last Name"><br>
+                <input type="email" placeholder="Your E-mail"><br>
+                <input type="password" id="password" placeholder="Password"><br>
+                <button class="button">Register</button>
+                <p class="already">Already have an account? <a href="#login">Login</a></p>
+            </form>
+            </div>
+        </div>
+        <!-- End Register -->
+        <!-- Start Footer -->
+        <div class="footer">
+            <div class="icons">
+                <i class="fab fa-pinterest"><a href="#"></a></i>
+                <i class="fab fa-facebook"><a href="#"></a></i>
+                <i class="fab fa-twitter"><a href="#"></a></i>
+            </div>
+            <h3>Healthy Food</h3>
+            <p class="already">&copy;HEALTHY ♥ | All Rights Reserved</p>
+        </div>
+        <!-- End Footer -->
+    </body>
+    </html>
