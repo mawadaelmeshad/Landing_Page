@@ -1,4 +1,4 @@
-# Healthy Food Landing Page : my first tas as a sync intern's web development intern
+# Healthy Food Landing Page : my first task as a sync intern's web development intern
 
 # Contents
 - Home page
